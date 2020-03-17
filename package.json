@@ -1,0 +1,25 @@
+{
+    "name": "devbot",
+    "version": "1.0.0",
+    "description": "Simple discord bot to our developer community",
+    "main": "startup.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "nodemon startup",
+        "start": "node startup"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/devecomm/DevBot.git"
+    },
+    "author": "DevComm",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/devecomm/DevBot/issues"
+    },
+    "homepage": "https://github.com/devecomm/DevBot#readme",
+    "dependencies": {
+        "dotenv": "^8.2.0",
+        "nodemon": "^2.0.2"
+    }
+}

@@ -1,0 +1,5 @@
+.env
+*.iml
+vscode/
+deploy/
+node_modules/
